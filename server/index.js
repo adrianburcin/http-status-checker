@@ -10,7 +10,7 @@ const port = process.env.PORT || 3001;
 const StatusCode = require('./status-code.js');
 const requestHelper = require('./request-helper.js');
 
-const url = 'https://www.google.com';
+const url = '';
 const qs = {};
 
 server.listen(port, function () {
