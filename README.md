@@ -30,4 +30,4 @@ npm install
 ```
 npm run start
 ```
-starts the server and client app concurrently which will serve the client on 3001
+starts the server and client app and will serve the client on 3001
