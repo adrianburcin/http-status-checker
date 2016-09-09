@@ -1,17 +1,33 @@
-# http-status-checker
-## Http status checker
+[![Build Status](https://travis-ci.org/adrianburcin/http-status-checker.svg?branch=master)](https://travis-ci.org/adrianburcin/http-status-checker)
+
+# Http status checker
 
 This is a small experimental project for monitoring the availability of a given url and shows you in a funny manner the status.
 
 [Http status checker demo](https://http-status-checker.herokuapp.com)
 
-## Configure
-You need to have node.js installed on your machine.
+## What we use:
+
+* [Socket.io](http://socket.io)
+* [Node.js](https://nodejs.org/en/)
+* [Moment.js](http://momentjs.com)
+
+## Try
+
+###### Configure
 Go to server/index.js and set your url and query strings (if any):
 ```javascript
 const url = 'your_url_here';
 const qs = {};
 ```
-Then, go to the project root and ```npm install``` and finally: ```npm run start```
 
-To see the result, open a browser and go to: ```localhost:3001```
+###### Install
+```
+npm install
+```
+
+###### Run
+```
+npm run start
+```
+starts the server and client app concurrently which will serve the client on 3001
