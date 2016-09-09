@@ -3,6 +3,8 @@
 
 This is a small experimental project for monitoring the availability of a given url and shows you in a funny manner the status.
 
+[Http status checker demo](https://http-status-checker.herokuapp.com)
+
 ## Configure
 You need to have node.js installed on your machine.
 Go to server/index.js and set your url and query strings (if any):
